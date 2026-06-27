@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Ahmet Can | İletişim</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="contact-page">
+
+<header class="site-header">
+    <div class="logo-menu">
+        <div id="menu-btn">&#9776;</div>
+        <h1 class="logo">Ahmet Can</h1>
+    </div>
+    <nav class="site-nav" id="site-nav">
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="projects.html">Projeler</a></li>
+            <li><a href="about.html">Hakkında</a></li>
+            <li><a href="contact.html" class="active">İletişim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact-container">
+    <h1>İletişim</h1>
+    <p class="contact-intro">Sorularınızı veya mesajlarınızı aşağıdaki form aracılığıyla iletebilirsiniz. Size en kısa sürede geri dönüş yapacağım.</p>
+
+    <form id="contactForm" novalidate>
+        <div class="form-group">
+            <label for="name">Adınız</label>
+            <input type="text" id="name" placeholder="Adınızı yazın" maxlength="50">
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-posta</label>
+            <input type="email" id="email" placeholder="E-posta adresinizi yazın" maxlength="100">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea id="message" placeholder="Mesajınızı yazın" maxlength="500"></textarea>
+        </div>
+
+        <button type="button" id="sendBtn">Gönder</button>
+        <div id="formMessage" style="margin-top:10px; font-weight:bold;"></div>
+    </form>
+</main>
+
+<footer>
+    © 2026 Ahmet Can
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
